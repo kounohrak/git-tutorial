@@ -5,6 +5,8 @@ for i in 1...100
     printf "Fizz\n";
   else if i % 5 == 0
     printf "Buzz\n";
+  else if i % 7 == 0
+    printf "git\n";
   else
     printf "%d\n",i;
   end
